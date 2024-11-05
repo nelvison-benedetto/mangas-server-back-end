@@ -1,0 +1,27 @@
+{
+  "name": "express-blog-api-crud",
+  "version": "0.0.1",
+  "description": "project express-blog-api-crud",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nelvison-benedetto/express-blog-api-crud.git"
+  },
+  "keywords": [
+    "npm",
+    "express",
+    "crud"
+  ],
+  "author": "Nelvison Benedetto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nelvison-benedetto/express-blog-api-crud/issues"
+  },
+  "homepage": "https://github.com/nelvison-benedetto/express-blog-api-crud#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
