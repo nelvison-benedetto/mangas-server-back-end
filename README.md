@@ -1,3 +1,3 @@
 # express-blog-api-crud
 
-Project Express CRUD (index/show/store/destroy)
+Project Express CRUD (index/show/store/update/destroy) Optimizated
