@@ -10,7 +10,6 @@ app.use(express.json());
 app.listen(PORT,(req,res)=>{
     console.log(`Server is running at ${HOST}:${PORT}`);
 });
-
 app.get('/',(req,res)=>{
     res.send('Product Main Page');
 });
