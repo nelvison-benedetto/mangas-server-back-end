@@ -1,3 +1,4 @@
+//controllers/PostController.js
 const posts = require('../db/storeposts.js');
 const fs = require('fs');
 

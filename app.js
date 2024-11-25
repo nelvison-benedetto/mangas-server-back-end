@@ -1,15 +1,28 @@
+//app.js
 const HOST = process.env.HOST;
 const PORT = process.env.PORT;
 
+const cors = require('cors');  //per far accedere alle tue rotte da altri domini(i.e un altro localhost)! (used npm install cors)
 const express = require('express');
 const app = express();
 
 const PostsRouter = require('./routers/posts.js');
+const notFoundMiddleware = require('./middlewares/notFoundMiddleware.js');
+
 app.use(express.json());
+app.use(cors());
 
 app.listen(PORT, (req,res)=>{
     console.log(`Server is running at ${HOST}:${PORT}`);
 });
+
+// Middleware to serve static files from the "public" directory, when client ask x file react look into "public" folder
+app.use(express.static('public'));
+
+app.get('/',(req,res)=>{   //test http://localhost:3001/something/
+    res.send('Main Page')
+});
+app.use('/:slug',PostsRouter);  //test http://localhost:3001/something/...
 
 
 // https://github.com/fabiopacifici/node_132/tree/main/live-pizza-express#lets-create-a-custom-error-handler-middleware
@@ -17,22 +30,15 @@ app.listen(PORT, (req,res)=>{
 app.use('/posts', (req, res, next) => {
     throw new Error("You broke everything dude!");
   }); 
+// Not found middleware
+app.use(notFoundMiddleware);
 
 
-
-app.get('/',(req,res)=>{
-    res.send('Main Page')
-});
-app.use('/:slug',PostsRouter);
-
-
-
-
-app.use((err,req,res,next)=>{
-    console.log("Error",err.message);
-    console.error(err.stack);
-    res.status(500).send({
-        message : "Something went wrong",
-        error : err.message
-    });
-});
+// app.use((err,req,res,next)=>{
+//     console.log("Error",err.message);
+//     console.error(err.stack);
+//     res.status(500).send({
+//         message : "Something went wrong",
+//         error : err.message
+//     });
+// });
