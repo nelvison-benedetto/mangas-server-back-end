@@ -2,15 +2,20 @@
 const HOST = process.env.HOST;
 const PORT = process.env.PORT;
 
-const cors = require('cors');  //per far accedere alle tue rotte da altri domini(i.e un altro localhost)! (used npm install cors)
 const express = require('express');
 const app = express();
+
+const cors = require('cors');  //per far accedere alle tue rotte da altri domini(i.e un altro localhost)! (used npm install cors)
+const path = require('path');
 
 const PostsRouter = require('./routers/posts.js');
 const notFoundMiddleware = require('./middlewares/notFoundMiddleware.js');
 
 app.use(express.json());
 app.use(cors());
+
+app.use('/imgcover', express.static(path.join(__dirname, 'public/imgcover')));  //X UPLOAD FILE ON SERVER
+
 
 app.listen(PORT, (req,res)=>{
     console.log(`Server is running at ${HOST}:${PORT}`);
