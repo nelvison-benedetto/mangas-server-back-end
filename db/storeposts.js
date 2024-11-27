@@ -1,8 +1,8 @@
 module.exports = [
     {
         "id": 1,
-        "slug": "reincarnated-hero",
-        "title": "Reincarnated Hero",
+        "slug": "dungeon-reset",
+        "title": "Dungeon Reset",
         "content": "A tale of a hero who gets a second chance in a magical world.",
         "price": 15.99,
         "file": "imgcover/dungeonreset.jpg",
@@ -15,8 +15,8 @@ module.exports = [
     },
     {
         "id": 2,
-        "slug": "mecha-chronicles",
-        "title": "Mecha Chronicles",
+        "slug": "kill-the-hero",
+        "title": "Kill the Hero",
         "content": "Epic battles between colossal robots in a dystopian future.",
         "price": 19.99,
         "file": "imgcover/killthehero.png",
@@ -29,8 +29,8 @@ module.exports = [
     },
     {
         "id": 3,
-        "slug": "love-and-laughter",
-        "title": "Love and Laughter",
+        "slug": "martial-peak",
+        "title": "Martial Peak",
         "content": "A romantic comedy about unlikely friends finding love.",
         "price": 12.49,
         "file": "imgcover/martialpeak.jpg",
@@ -43,8 +43,8 @@ module.exports = [
     },
     {
         "id": 4,
-        "slug": "fantasy-academy",
-        "title": "Fantasy Academy",
+        "slug": "return-of-the-mount-hua-sect",
+        "title": "Return of the Mount Hua Sect",
         "content": "Young mages discover their powers and unravel ancient mysteries.",
         "price": 17,
         "file": "imgcover/mounthua.jpg",
@@ -57,8 +57,8 @@ module.exports = [
     },
     {
         "id": 5,
-        "slug": "galaxy-guardians",
-        "title": "Galaxy Guardians",
+        "slug": "one-piece",
+        "title": "One Piece",
         "content": "Adventures across the stars with a diverse team of explorers.",
         "price": 20.99,
         "file": "imgcover/onepiece.jpg",
@@ -71,8 +71,8 @@ module.exports = [
     },
     {
         "id": 6,
-        "slug": "childhood-dreams",
-        "title": "Childhood Dreams",
+        "slug": "one-punch-man",
+        "title": "One-Punch Man",
         "content": "Wholesome adventures of kids in a magical countryside.",
         "price": 10.5,
         "file": "imgcover/onepunch.jpg",
@@ -83,48 +83,4 @@ module.exports = [
         ],
         "visibility": "post"
     },
-    {
-        "id": "1732704896437",
-        "slug": "uuuu",
-        "title": "uuuu",
-        "content": "uuuu",
-        "price": "0",
-        "file": null,
-        "category": "Josei",
-        "tags": "",
-        "visibility": ""
-    },
-    {
-        "id": "1732705168261",
-        "slug": "",
-        "title": "",
-        "content": "",
-        "price": "0",
-        "file": null,
-        "category": "",
-        "tags": "",
-        "visibility": ""
-    },
-    {
-        "id": "1732705938871",
-        "slug": "",
-        "title": "",
-        "content": "",
-        "price": "0",
-        "file": null,
-        "category": "",
-        "tags": "",
-        "visibility": ""
-    },
-    {
-        "id": "1732722715868",
-        "slug": "rrrr",
-        "title": "rrrr",
-        "content": "yyyy",
-        "price": "0.2",
-        "file": null,
-        "category": "Shojo",
-        "tags": "Mecha,Romantic Comedy",
-        "visibility": "post"
-    }
 ]
