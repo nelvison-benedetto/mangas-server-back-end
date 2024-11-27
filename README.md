@@ -1,5 +1,25 @@
-# express-blog-api-crud
+## Mangas Server Back-End 
+to run this repo:
 
-Project Express CRUD (index/show/store/update/destroy) Optimizated
+-clone this repo
+-change name folder prj
+-package.json : change name prj
 
+```bash
+git remote remove origin
+git remote -v
+git init
+```
 
+```bash
+npm install
+npm install express
+npm install dotenv
+```
+
+- create file .env
+```env
+HOST = http://localhost
+PORT = 3001
+```
+🛰️ Run with  "npm run start" 
