@@ -84,100 +84,47 @@ module.exports = [
         "visibility": "post"
     },
     {
-        "id": 1234567890123,
-        "slug": "come-fare-una-torta-al-cioccolato",
-        "title": "AAAACome fare una torta al cioccolato",
-        "content": "Segui questi passaggi facili per preparare una torta al cioccolato deliziosa.",
-        "price": 5.99,
-        "file": null,
-        "category": "",
-        "tags": [],
-        "visibility": "public"
-    },
-    {
-        "id": 1732615140226,
-        "slug": "ytttt",
-        "title": "YTTTT",
-        "content": "YTTTT",
-        "price": "0.5",
-        "file": "C:\\fakepath\\expizz1.png",
-        "category": "Josei",
-        "tags": [
-            "Mecha",
-            "Romantic Comedy"
-        ],
-        "visibility": "post"
-    },
-    {
-        "id": 1732615305969,
-        "slug": "zzz",
-        "title": "ZZZ",
-        "content": "zzzz",
-        "price": "10",
-        "file": "C:\\fakepath\\minions4.jpg",
-        "category": "Seinen",
-        "tags": [
-            "Isekai",
-            "Slice of Life"
-        ],
-        "visibility": "post"
-    },
-    {
-        "id": 1234567890123,
-        "slug": "come-fare-una-torta-al-cioccolato",
-        "title": "BBBCome fare una torta al cioccolato",
-        "content": "Segui questi passaggi facili per preparare una torta al cioccolato deliziosa.",
-        "price": 5.99,
-        "file": null,
-        "category": "",
-        "tags": [],
-        "visibility": "public"
-    },
-    {
-        "id": 1234567890123,
-        "slug": "come-fare-una-torta-al-cioccolato",
-        "title": "FFFFFFCome fare una torta al cioccolato",
-        "content": "Segui questi passaggi facili per preparare una torta al cioccolato deliziosa.",
-        "price": 5.99,
-        "file": null,
-        "category": "",
-        "tags": [],
-        "visibility": "public"
-    },
-    {
-        "id": "1234567890123",
-        "slug": "come-fare-una-torta-al-cioccolato",
-        "title": "LLMNNCome fare una torta al cioccolato",
-        "content": "balblablablabla",
-        "price": "5.99",
-        "file": "/imgcover/1732621138297-329107176.jpeg",
-        "category": "",
-        "tags": "",
-        "visibility": "post"
-    },
-    {
-        "id": 1732621882510,
+        "id": "1732704896437",
         "slug": "uuuu",
         "title": "uuuu",
-        "content": "uuuuuuiiiii",
-        "price": "0.4",
+        "content": "uuuu",
+        "price": "0",
         "file": null,
-        "category": "Shojo",
-        "tags": [
-            "Romantic Comedy",
-            "Mecha"
-        ],
-        "visibility": "post"
+        "category": "Josei",
+        "tags": "",
+        "visibility": ""
     },
     {
-        "id": "1234567890123",
-        "slug": "come-fare-una-torta-al-cioccolato",
-        "title": "NBBBBCome fare una torta al cioccolato",
-        "content": "balblablablabla",
-        "price": "5.99",
-        "file": "/imgcover/matplotlib-anatomy-of-a-plot.png",
+        "id": "1732705168261",
+        "slug": "",
+        "title": "",
+        "content": "",
+        "price": "0",
+        "file": null,
         "category": "",
         "tags": "",
+        "visibility": ""
+    },
+    {
+        "id": "1732705938871",
+        "slug": "",
+        "title": "",
+        "content": "",
+        "price": "0",
+        "file": null,
+        "category": "",
+        "tags": "",
+        "visibility": ""
+    },
+    {
+        "id": "1732722715868",
+        "slug": "rrrr",
+        "title": "rrrr",
+        "content": "yyyy",
+        "price": "0.2",
+        "file": null,
+        "category": "Shojo",
+        "tags": "Mecha,Romantic Comedy",
         "visibility": "post"
     }
 ]

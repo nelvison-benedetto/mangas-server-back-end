@@ -22,7 +22,6 @@ const storage = multer.diskStorage({
 const upload = multer({ storage: storage });
 
 
-
 const index = (req,res)=>{    //INDEX
     return res.status(200).json({
         data : posts,
