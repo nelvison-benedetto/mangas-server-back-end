@@ -1,9 +1,9 @@
 ## Mangas Server Back-End 
 to run this repo:
 
--clone this repo
--change name folder prj
--package.json : change name prj
+- clone this repo
+- change name folder prj
+- package.json : change name prj
 
 ```bash
 git remote remove origin
