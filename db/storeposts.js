@@ -83,4 +83,26 @@ module.exports = [
         ],
         "visibility": "post"
     },
+    {
+        "id": "1732727334747",
+        "slug": "",
+        "title": "",
+        "content": "",
+        "price": "0.1",
+        "file": null,
+        "category": "",
+        "tags": "",
+        "visibility": ""
+    },
+    {
+        "id": "1732895570483",
+        "slug": "rrrr",
+        "title": "rrrr",
+        "content": "rrrr",
+        "price": "0.3",
+        "file": null,
+        "category": "Seinen",
+        "tags": "Romantic Comedy,Mecha",
+        "visibility": "post"
+    }
 ]

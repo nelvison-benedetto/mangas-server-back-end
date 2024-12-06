@@ -15,6 +15,10 @@ git init
 npm install
 npm install express
 npm install dotenv
+npm install cors   
+npm install multer
+
+npm install mysql2 #x query sql
 ```
 
 - create file .env
